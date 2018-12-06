@@ -1,0 +1,235 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.custom-nav ul{
+		float: right;
+		text-align: right;
+	}
+	/*banner*/
+	.banner-content p {
+		font-size: 27px;
+	}
+	.custom-btn {    
+		font-size: 20px;
+		padding: 14px 25px;
+	}
+	.banner-content h1 {
+		font-size: 45px;
+	}
+	.banner-content p {
+		font-size: 24px;
+	}
+
+	/*aboutus*/
+	.aboutus-content h3 {
+		font-size: 19px;
+	}
+	.aboutus-work-approch-text h1{
+		font-size: 30px;
+	}
+	.aboutus-work-approch-text p {
+		font-size: 18px;
+	}
+	.collapse-btn img {
+		width: 80%;
+	}
+	/*work*/
+	.image-info h1 {		
+		top: 185px;
+		left: 215px;
+	}
+	.image-info h2 {
+		font-size: 28px;
+		top: 240px;
+		left: 145px;
+	}
+	.image-info p {
+		font-size: 18px;    
+		top: 272px;
+		left: 150px;
+	}
+	.form-container form{
+		padding: 0px 30px;
+	}
+	.collapse_content p {   
+		font-size: 14px;
+	}
+	.social_icons ul li a {
+    font-size: 20px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.custom-nav ul{
+		float: right;
+		text-align: right;
+	}
+	/*banner*/
+	.banner-content p {
+		font-size: 27px;
+	}
+	.custom-btn {    
+		font-size: 20px;
+		padding: 14px 25px;
+	}
+	.banner-content h1 {
+		font-size: 45px;
+	}
+	.banner-content p {
+		font-size: 24px;
+	}
+
+
+	/*aboutus*/
+	.aboutus-content h3 {
+		font-size: 19px;
+	}
+	.aboutus-work-approch-text h1{
+		font-size: 30px;
+	}
+	.aboutus-work-approch-text p {
+		font-size: 18px;
+	}
+	.collapse-btn img {
+		width: 80%;
+	}
+	/*work*/
+	.image-info h1 {
+		top: 65px;
+		left: 110px;
+	}
+	.image-info h2 {
+		font-size: 22px;
+		top: 120px;
+		left: 65px;
+	}
+	.image-info p {
+		font-size: 16px;
+		top: 148px;
+		left: 74px;
+	}
+	.form-container form{
+		padding: 0px 30px;
+	}
+	.social_icons ul li a {
+    font-size: 20px;
+}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header*/
+	.custom-nav ul{
+		float: right;
+		text-align: right;
+	}
+	.custom-nav ul li {
+		padding: 0px 7px;
+	}
+	.custom-nav ul li img {
+		padding-top: 18px;
+	}
+	.custom-nav ul li button {	
+		font-size: 15px;	
+		padding: 8px 9px !important;
+	}
+	/*banner*/
+	.banner-content p {
+		font-size: 27px;
+	}
+	.custom-btn {    
+		font-size: 20px;
+		padding: 14px 25px;
+	}
+	.banner-content h1 {
+		font-size: 45px;
+	}
+	.banner-content p {
+		font-size: 24px;
+	}
+	/*aboutus*/
+	.aboutus-content h3 {
+		font-size: 19px;
+	}
+	/*approch*/
+	.approch-count-box{
+		height: 75px;
+		width: 75px;
+	}
+	.approch-count-box h1 {
+		font-size: 48px;
+		top: -4px;
+		left: 25px;
+	}
+
+	.approch-text {
+		padding-top: 37px;
+	}
+	.approch-count-box p {    
+		top: 40px;
+		left: 22px;
+	}
+	.box {		
+		right: -6px;
+	}
+	.box1 {  
+		left: -6px;
+	}
+
+	/*work*/
+	.image-info h1 {
+		top: 100px;
+		left: 148px;
+	}
+	.image-info h2 {
+		font-size: 25px;
+		top: 160px;
+		left: 94px;
+	}
+	.image-info p {
+		font-size: 16px;
+		top: 194px;
+		left: 115px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*header*/
+	.header-bottom{
+		padding: 30px 0;
+	}
+	.custom-nav ul li {
+		padding: 0px 7px;
+	}
+	.custom-nav ul li img {
+		padding-top: 18px;
+	}
+	.custom-nav ul li button {	
+		font-size: 15px;	
+		padding: 8px 9px !important;
+	}
+	/*banner*/
+	.banner-content p {
+		font-size: 27px;
+	}
+	.custom-btn {    
+		font-size: 20px;
+		padding: 14px 25px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1499.98px){
+
+
+}
+
+/* Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px){
+}
