@@ -1,5 +1,8 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+	.navbar-brand {
+		width: 70%;
+	}
 	.custom-nav ul{
 		float: right;
 		text-align: right;
@@ -9,14 +12,14 @@
 		font-size: 27px;
 	}
 	.custom-btn {    
-		font-size: 20px;
-		padding: 14px 25px;
+		font-size: 17px !important;
+		padding: 14px 25px !important;
 	}
 	.banner-content h1 {
-		font-size: 45px;
+		font-size: 40px;
 	}
 	.banner-content p {
-		font-size: 24px;
+		font-size: 17px;
 	}
 
 	/*aboutus*/
@@ -48,14 +51,16 @@
 		left: 150px;
 	}
 	.form-container form{
-		padding: 0px 30px;
+		padding: 0px 0px;
 	}
 	.collapse_content p {   
 		font-size: 14px;
+		padding: 6px 0px;
 	}
 	.social_icons ul li a {
-    font-size: 20px;
-}
+		font-size: 20px;
+	}
+	
 
 }
 
@@ -113,8 +118,8 @@
 		padding: 0px 30px;
 	}
 	.social_icons ul li a {
-    font-size: 20px;
-}
+		font-size: 20px;
+	}
 
 }
 /*Medium devices (tablets, 768px and up)*/
